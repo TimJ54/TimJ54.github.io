@@ -1,0 +1,191 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:Timothy	
+   Date: 12/8/2021
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #F8F8FF
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+	width: 934px;
+	/* reduced by 20px to accommodate shadow */
+    margin-top: 10px;
+    text-align: center;	
+	background-color: #FFFFFF
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+
+}
+
+#main p {
+    text-indent: 2em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+	text-align: center;
+}
+
+aside p {
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+h4 {
+	text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #111;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: #565656;
+    clear: both;
+    color: #CD5C5C;
+    font-weight: bold;
+    text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
